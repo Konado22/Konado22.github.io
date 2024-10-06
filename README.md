@@ -8,5 +8,17 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 <h1>Jesse Draper Web Developer</h1>
-<link href=''> Traveler Application<link />
-<link href='https://github.com/Konado22/Konado22.github.io/tree/main/eportfolio/OriginalArtifacts/Data-Structures-and-Sort'> Binary Tree <link />
+<h1>Table of Contents</h1>
+<ul>
+	<li> [Professional Self-Assessment]()</li>
+	<li> [Code Review]()</li>
+	<li> [Software Design and Engineering:Traveler]()</li>
+	<li>[Data Structures and Algorithims: Binary Tree]()</li>
+	<li>[Databases:Traveler]()</li>
+</ul>
+<h1>Professinal Self-Assessment</h1>
+<h1>Code Review</h1>
+<h1>Traveler</h1>
+<h1>Binary Tree</h1>
+[Traveler Application]()
+[Binary Tree]([https://www.google.com](https://github.com/Konado22/Konado22.github.io/tree/main/eportfolio/OriginalArtifacts/Data-Structures-and-Sort))
