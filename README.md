@@ -7,7 +7,11 @@
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-<h1>Jesse Draper Web Developer</h1>
+Jesse Draper 
+
+
+Web Developer
+
 <h1>Table of Contents</h1>
 <ul>
 	<li> [Professional Self-Assessment]()</li>
