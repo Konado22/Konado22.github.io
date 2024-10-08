@@ -5,6 +5,7 @@
 //
 //===============================================================================================
 "use client"
+import React from "react";
 import { useState } from "react";
 export default function Home() {
   const [currentPage, newPage] = useState('main');
