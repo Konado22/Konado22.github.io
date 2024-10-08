@@ -20,4 +20,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token: ${{ secrets.REPO_TOKEN }}
-          branch: gh-pages
+          branch: main
