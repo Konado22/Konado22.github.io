@@ -1,3 +1,9 @@
+//==============================================================================================
+//Name:Jesse Draper
+//BS Computer Science w/ Cybersecurity emphasis || DU Fullstack Bootcamp Graduate
+// 
+//
+//===============================================================================================
 "use client"
 import { useState } from "react";
 export default function Home() {
@@ -37,8 +43,11 @@ export default function Home() {
           <button onClick={() => newPage('main')}>Homepage</button>
           <button onClick={() => newPage('aboutme')}>About Me </button>
           <button onClick={() => newPage('traveler')}>Artifact 1</button>
+          <>
+          add elements for github, email, etc
+          </>
         </>
       )
     }
-  }
+  } 
 }

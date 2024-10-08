@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    //utilized from https://github.com/gregrickaby/nextjs-github-pages Thanks Greg!
+  //nexjs config files, NEXTJS IS AMAZING
     output: "export",
+    //basePath:'',
     images: {
         unoptimized: true,
       }
