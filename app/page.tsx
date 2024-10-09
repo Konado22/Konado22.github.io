@@ -11,7 +11,7 @@ import Homepage from "./pages/homepage/page";
 import AboutMe from "./pages/aboutme/page";
 import Portfolio from "./pages/portfolio/page";
 import ContactMe from "./pages/contactme/page";
-import ServicesPage from "./pages/services/page";
+import ServicesPage from "./pages/servicespage/page";
 
 export default function Home() {
   "use client"
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("services")}>Services</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <Homepage />
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <button className="hover:shadow-inner hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("services")}>Services</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <AboutMe />
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("services")}>Services</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <Portfolio />
@@ -71,13 +71,13 @@ export default function Home() {
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("services")}>Services</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <ContactMe />
         </div>
       )
-    } else if (currentPage == 'services') {
+    } else if (currentPage == "services") {
       <div className="grid grid-flow-col bg-blue-500">
         <div className="grid gap-y-10 bg-green-200">
           <div className="flex justify-center">
@@ -85,7 +85,7 @@ export default function Home() {
           </div>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-          <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
+          <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("services")}>Services</button>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
         </div>
         <ServicesPage />
