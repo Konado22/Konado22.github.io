@@ -1,3 +1,7 @@
-export default function Services () {
-    
+export default function ServicesPage () {
+    return (
+        <>
+        
+        </>
+    )
 }
