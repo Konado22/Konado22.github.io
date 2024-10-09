@@ -5,6 +5,7 @@
 //
 //===============================================================================================
 'use client'
+import Image from "next/image";
 import React from "react";
 import { useState } from "react";
 export default function Home() {
@@ -13,12 +14,28 @@ export default function Home() {
   {
     if (currentPage == 'main') {
       return (
-        <>
-          main page
-          <button onClick={() => newPage('aboutme')}>About Me </button>
-          <button onClick={() => newPage('traveler')}>Artifact 1</button>
-          <button onClick={() => newPage('binarytree')}>Artifact 2</button>
-        </>
+        <div className="grid grid-flow-col bg-blue-500">
+          <div className="grid gap-y-10 bg-green-200">
+            <div className="flex justify-center">
+              <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+            </div>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={()=>newPage('aboutme')}>About Me</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={()=>newPage('portfolio')}>Portfolio</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl"onClick={()=>newPage('services')}>Services</button>
+            <button className="hover:bg-green-600 rounded p-5 text-2xl"onClick={()=>newPage('contactme')}>Contact Me</button>
+
+          </div>
+
+
+          <div className="space-y-20 flex flex-col align-middle p-10">
+            <h2 className="text-6xl">Hello, My name is</h2>
+            <h1 className="text-8xl">Jesse Draper</h1>
+            <p>I love to code and design websites.  </p>
+          </div>
+          <div>
+            <Image src='/profile.jpg' alt="picture filler"height='200' width='200'/>
+          </div>
+        </div>
       )
     } else if (currentPage == 'aboutme') {
       return (
@@ -30,11 +47,11 @@ export default function Home() {
             <p>contact information</p>
           </div>
           <button onClick={() => newPage('main')}>Homepage</button>
-          <button onClick={() => newPage('traveler')}>Artifact 1</button>
-          <button onClick={() => newPage('binarytree')}>Artifact 2</button>
+          <button onClick={() => newPage('portfolio')}>Portfolio</button>
+          <button onClick={() => newPage('contactme')}>Contact Me</button>
         </>
       )
-    } else if (currentPage == 'traveler') {
+    } else if (currentPage == 'portfolio') {
       return (
         <>
           <h1>Artifact 1:Traveler</h1>
@@ -47,10 +64,10 @@ export default function Home() {
           </div>
           <button onClick={() => newPage('main')}>Homepage</button>
           <button onClick={() => newPage('aboutme')}>About Me </button>
-          <button onClick={() => newPage('binarytree')}>Artifact 2</button>
+          <button onClick={() => newPage('contactme')}>Contact Me</button>
         </>
       )
-    } else if (currentPage == 'binarytree') {
+    } else if (currentPage == 'contactme') {
       return (
         <>
           <h1>Artifact 2 Binary tree</h1>
