@@ -22,7 +22,7 @@ export default function Home() {
         <div className="grid grid-flow-col bg-blue-500">
           <div className="grid gap-y-10 bg-green-200">
             <div className="flex justify-center">
-              <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -39,7 +39,7 @@ export default function Home() {
             <div className="flex justify-center">
               <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
             </div>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
+            <button className="hover:shadow-inner hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
@@ -80,19 +80,27 @@ export default function Home() {
     }
     else if (currentPage == 'services') {
       <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-200">
-            <div className="flex justify-center">
-              <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
-            </div>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
+        <div className="grid gap-y-10 bg-green-200">
+          <div className="flex justify-center">
+            <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
           </div>
-          <ServicesPage/>
+          <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
+          <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
+          <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('services')}>Services</button>
+          <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
         </div>
+        <ServicesPage />
+      </div>
+    }
+    else {
+      return (
+        <div className="flex justify-center">
+          <h1 className="text-4xl text-red-700">404 ERROR PLEASE REFRESH THE BROWSER</h1>
+        </div>
+      )
     }
   }
+
 }
 //============================================================================================
 //****************************************************************************************  */
