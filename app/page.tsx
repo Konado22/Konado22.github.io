@@ -1,7 +1,7 @@
 //==============================================================================================
 //Name:Jesse Draper
 //BS Computer Science w/ Cybersecurity emphasis || DU Fullstack Bootcamp Graduate
-// 
+// Thank you for viewing my portfolio
 //
 //===============================================================================================
 'use client'
