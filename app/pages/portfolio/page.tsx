@@ -1,5 +1,7 @@
 'use client'
 
+import Link from "next/link"
+
 //import { useState } from "react"
 
 export default function Portfolio() {
@@ -16,16 +18,16 @@ export default function Portfolio() {
                 <div id='traveler' className="space-y-5 bg-white p-5 border-4 border-green-400 rounded-lg">
                     <h1 className="text-2xl">Traveler</h1>
                     <p>A Fullstack NextJS application utilizing Vercel Postgres</p>
-                    <img width='20'src="/arrow.png" />
+                    <img className='focus:ring-2' width='20'src="/arrow.png" />
                 </div>
 
                 <div id='traveler' className="space-y-5 bg-white p-5 border-4 border-green-400 rounded-lg">
                     <h1 className="text-2xl">Binary Tree Sort</h1>
                     <p>Comparison of Data Structures <br/>Justification of Data Structure for Assignment</p>
-                    <img width='20' src="/arrow.png" />
+                    <img className='focus:ring hover:shadow-lg' width='20' src="/arrow.png" />
                 </div>
                 <div className="flex justify-center">
-                    <button className="flex p-2 bg-white border-2 border-green-400 rounded"><img src="/github.png"/>  Additional projects  <img src="/github.png"/> </button>
+                  <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-white border-2 border-green-400 rounded"><img src="/github.png"/>  Additional projects  <img src="/github.png"/> </button></Link>  
                 </div>
             </div>
             <div className='mr-20'>
