@@ -22,7 +22,7 @@ export default function Home() {
         <div className="grid grid-flow-col bg-blue-500">
           <div className="grid gap-y-10 bg-green-200">
             <div className="flex justify-center">
-              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -37,7 +37,7 @@ export default function Home() {
         <div className="grid grid-flow-col bg-blue-500">
           <div className="grid gap-y-10 bg-green-200">
             <div className="flex justify-center">
-              <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:shadow-inner hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="grid grid-flow-col bg-blue-500">
           <div className="grid gap-y-10 bg-green-200">
             <div className="flex justify-center">
-              <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="grid grid-flow-col bg-blue-500">
           <div className="grid gap-y-10 bg-green-200">
             <div className="flex justify-center">
-              <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -77,12 +77,11 @@ export default function Home() {
           <ContactMe />
         </div>
       )
-    }
-    else if (currentPage == 'services') {
+    } else if (currentPage == 'services') {
       <div className="grid grid-flow-col bg-blue-500">
         <div className="grid gap-y-10 bg-green-200">
           <div className="flex justify-center">
-            <Image src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full" />
+            <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
           </div>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
