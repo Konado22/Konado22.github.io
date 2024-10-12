@@ -39,7 +39,7 @@ export default function Home() {
             <div className="flex justify-center">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
-            <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
+            <button className="font-bold  hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
@@ -55,7 +55,7 @@ export default function Home() {
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
-            <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
+            <button className="font-bold hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
@@ -72,7 +72,7 @@ export default function Home() {
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
-            <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
+            <button className="font-bold  hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <ContactMe />
         </div>

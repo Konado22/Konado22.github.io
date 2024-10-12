@@ -1,33 +1,21 @@
 'use client'
-
-import Link from "next/link"
-
-//import { useState } from "react"
-
+import Link from "next/link";
+import TravelerComponent from "@/app/travelerComponent/page";
+import BinaryTree from "@/app/binaryComponent/page";
 export default function Portfolio() {
     'use client'
-    //const [travelerCard,setTraveler] = useState('short');
-    //const [binaryCard,setBinary] = useState('short');
-
     return (
-        <div className="grid grid-flow-col">
-            <div className="space-y-5 pl-10 pt-10">
-                <h1 className="text-6xl">Portfolio</h1>
-                <h2 className="text-2xl">Below are current projects I have enhanced<br />
-                    Further examples on my Github</h2>
-                <div id='traveler' className="space-y-5 bg-white p-5 border-4 border-green-400 rounded-lg">
-                    <h1 className="text-2xl">Traveler</h1>
-                    <p>A Fullstack NextJS application utilizing Vercel Postgres</p>
-                    <img className='focus:ring-2' width='20'src="/arrow.png" />
+        <div>
+            <div className="space-y-5">
+                <div className=" bg-green-400 border-b-8 border-green-400">
+                    <h1 className="text-6xl p-10">Portfolio</h1>
                 </div>
-
-                <div id='traveler' className="space-y-5 bg-white p-5 border-4 border-green-400 rounded-lg">
-                    <h1 className="text-2xl">Binary Tree Sort</h1>
-                    <p>Comparison of Data Structures <br/>Justification of Data Structure for Assignment</p>
-                    <img className='focus:ring hover:shadow-lg' width='20' src="/arrow.png" />
-                </div>
+                <h2 className="text-2xl">Below are current projects I have enhanced in my BSCS program<br />
+                    Further examples in various technologies can be located on my Github</h2>
+                <TravelerComponent />
+                <BinaryTree />
                 <div className="flex justify-center">
-                  <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-white border-2 border-green-400 rounded hover:font-bold"><img src="/github.png"/>  Additional projects  <img src="/github.png"/> </button></Link>  
+                    <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-white border-2 border-green-400 rounded hover:font-bold"><img src="/github.png" />  Additional projects  <img src="/github.png" /> </button></Link>
                 </div>
             </div>
             <div className='mr-20'>
@@ -37,5 +25,5 @@ export default function Portfolio() {
             </div>
         </div>
 
-    )
+      )
 }
