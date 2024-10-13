@@ -20,7 +20,7 @@ export default function Home() {
     if (currentPage == 'main') {
       return (
         <div className="grid grid-flow-col bg-blue-500 ">
-          <div className="grid gap-y-10 bg-green-200">
+          <div className="grid gap-y-10 bg-green-400">
             <div className="flex justify-center">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
     } else if (currentPage == 'aboutme') {
       return (
         <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-200">
+          <div className="grid gap-y-10 bg-green-400">
             <div className="flex justify-center">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
@@ -50,7 +50,7 @@ export default function Home() {
     } else if (currentPage == 'portfolio') {
       return (
         <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-200">
+          <div className="grid gap-y-10 bg-green-400">
             <div className="flex justify-center">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
@@ -65,7 +65,7 @@ export default function Home() {
     } else if (currentPage == 'contactme') {
       return (
         <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-200">
+          <div className="grid gap-y-10 bg-green-400">
             <div className="flex justify-center">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
@@ -79,7 +79,7 @@ export default function Home() {
       )
     } else if (currentPage == 'servicesPage') {
       <div className="grid grid-flow-col bg-blue-500">
-        <div className="grid gap-y-10 bg-green-200">
+        <div className="grid gap-y-10 bg-green-400">
           <div className="flex justify-center">
             <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
           </div>

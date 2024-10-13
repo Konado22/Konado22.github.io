@@ -6,11 +6,12 @@ export default function Portfolio() {
     'use client'
     return (
         <div>
-            <div className="space-y-5">
-                <div className=" bg-green-400 border-b-8 border-green-400">
+            <div className=" bg-green-400 border-b-8 border-green-400">
                     <h1 className="text-6xl p-10">Portfolio</h1>
                 </div>
-                <h2 className="text-2xl">Below are current projects I have enhanced in my BSCS program<br />
+            <div className="space-y-5 p-5">
+                
+                <h2 className=" m-10 text-2xl">Below are current projects I have enhanced in my BSCS program<br />
                     Further examples in various technologies can be located on my Github</h2>
                 <TravelerComponent />
                 <BinaryTree />
@@ -20,10 +21,8 @@ export default function Portfolio() {
             </div>
             <div className='mr-20'>
                 <div>
-
                 </div>
             </div>
         </div>
-
-      )
+    )
 }
