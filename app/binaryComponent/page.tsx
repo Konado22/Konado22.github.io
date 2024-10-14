@@ -22,6 +22,10 @@ export default function BinaryTree() {
                 <p>In the original assignment a data structure was selected to best accomidate the requirements of this applicaton.
                     My goal in the enhancements was to implement the quickest and most effective to manage data structure.
                     Originally a vector was utilized for simplistic storgage and manipulation.  </p>
+                    <div className="flex flex-col space-y-10">
+                    <button>Original Artifact</button>
+                    <button>Enhanced Artifact</button>
+                </div>
                 <img className=' rotate-180 focus:ring hover:shadow-lg' width='20' src="/arrow.png" onClick={() => setBinary('short')} />
             </div>
         )

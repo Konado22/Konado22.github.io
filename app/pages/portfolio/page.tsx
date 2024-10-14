@@ -6,13 +6,10 @@ export default function Portfolio() {
     'use client'
     return (
         <div>
-            <div className=" bg-green-400 border-b-8 border-green-400">
-                    <h1 className="text-6xl p-10">Portfolio</h1>
-                </div>
+            <h1 className="text-6xl p-10">Portfolio</h1>
             <div className="space-y-5 p-5">
-                
-                <h2 className=" m-10 text-2xl">Below are current projects I have enhanced in my BSCS program<br />
-                    Further examples in various technologies can be located on my Github</h2>
+                <h2 className=" m-10 text-2xl">Below are current projects I have enhanced in my BSCS program or feel strongly example skills in industry specific tasks.<br/><br/>
+                    Further examples in various technologies can be located on my Github. I am also open to collabortation on these items as well. Please reach out to me regarding these offers/opportunities</h2>
                 <TravelerComponent />
                 <BinaryTree />
                 <div className="flex justify-center">

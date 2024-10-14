@@ -19,10 +19,10 @@ export default function Home() {
   {
     if (currentPage == 'main') {
       return (
-        <div className="grid grid-flow-col bg-blue-500 ">
-          <div className="grid gap-y-10 bg-green-400">
-            <div className="flex justify-center">
-              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
+        <div className="grid size-full grid-flow-row bg-blue-500 ">
+          <div className="max-h-full gap-y-10 bg-green-400">
+            <div className="flex justify-end pr-10 align-middle">
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='50' height='50' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:font-bold  hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -34,10 +34,10 @@ export default function Home() {
       )
     } else if (currentPage == 'aboutme') {
       return (
-        <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-400">
-            <div className="flex justify-center">
-              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
+        <div className="grid size-full grid-flow-row bg-blue-500">
+          <div className="max-h-full gap-y-10 bg-green-400">
+            <div className="flex justify-end pr-10 align-middle">
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='50' height='50' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="font-bold  hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -49,10 +49,10 @@ export default function Home() {
       )
     } else if (currentPage == 'portfolio') {
       return (
-        <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-400">
-            <div className="flex justify-center">
-              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
+        <div className="grid size-full grid-flow-row bg-blue-500">
+          <div className="max-h-full gap-y-10 bg-green-400">
+            <div className="flex justify-end pr-10 align-middle">
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='50' height='50' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="font-bold hover:font-bold hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -64,10 +64,10 @@ export default function Home() {
       )
     } else if (currentPage == 'contactme') {
       return (
-        <div className="grid grid-flow-col bg-blue-500">
-          <div className="grid gap-y-10 bg-green-400">
-            <div className="flex justify-center">
-              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
+        <div className="grid size-full grid-flow-row bg-blue-500">
+          <div className="max-h-full gap-y-10 bg-green-400">
+            <div className="flex justify-end pr-10 align-middle">
+              <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='50' height='50' className=" pt-5 rounded-full hover:shadow-2xl" />
             </div>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
@@ -78,10 +78,10 @@ export default function Home() {
         </div>
       )
     } else if (currentPage == 'servicesPage') {
-      <div className="grid grid-flow-col bg-blue-500">
-        <div className="grid gap-y-10 bg-green-400">
-          <div className="flex justify-center">
-            <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='300' height='220' className=" pt-5 rounded-full hover:shadow-2xl" />
+      <div className="grid size-full grid-flow-row bg-blue-500">
+        <div className="max-h-full gap-y-10 bg-green-400">
+          <div className="flex justify-end pr-10 align-middle">
+            <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='50' height='50' className=" pt-5 rounded-full hover:shadow-2xl" />
           </div>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
           <button className="hover:bg-green-600 rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
