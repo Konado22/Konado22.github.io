@@ -23,7 +23,7 @@ export default function AboutMe() {
 
             </div>
             <div className="p-10 grid justify-center">
-                <button className="p-5 hover:shadow-2xl hover:font-bold  bg-white border-4 rounded border-green-400">View my <br /> Code Review</button>
+                <button className="p-5 hover:shadow-2xl hover:font-bold  bg-slate-300 border-2 rounded border-black">View my <br /> Code Review</button>
             </div>
         </div>
     )

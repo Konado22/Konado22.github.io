@@ -10,14 +10,14 @@ export default function ContactMe() {
                 <h1 className="text-2xl">For any inqueries about business or project opportunities, or ways I can support your team today please reach out to me through any of the resources below.</h1>
                 <div className="flex-col space-y-10">
                     <h1 className="text-2xl">Below I have also provided additional resouces such as my downloadable cover letter as well as updated resume</h1>
-                    <button className="border-4 rounded border-green-400 hover:shadow-2xl border-spacing-3 p-5">Link to Cover Letter</button><br/>
-                    <button className="border-4 rounded border-green-400 hover:shadow-2xl border-spacing-3 p-5"> Link to Resume</button>
+                    <button className=" bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5">Link to Cover Letter</button><br/>
+                    <button className="bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5"> Link to Resume</button>
                 </div>
             </div>
             <div className="flex flex-row justify-evenly">
-                <Image className='hover:shadow-xl border-4 rounded border-green-400 bg-white' alt="LinkedIn" src='/linkedin.png' height='80' width='40' />
-                <Image className='hover:shadow-xl border-4 rounded border-green-400 bg-white' alt="github" src='/github.png' height='80' width='40' />
-                <Image className='hover shadow-xl border-4 rounded border-green-400 bg-white' alt='email' src='/gmail.png' height='80' width='40' />
+                <Image className='hover:shadow-xl border-3 rounded border-black bg-slate-300' alt="LinkedIn" src='/linkedin.png' height='70' width='70' />
+                <Image className='hover:shadow-xl border-3 rounded border-black bg-slate-300' alt="github" src='/github.png' height='70' width='70' />
+                <Image className='hover shadow-xl border-2 rounded border-black bg-slate-300' alt='email' src='/gmail.png' height='70' width='70' />
             </div>
 
         </div>

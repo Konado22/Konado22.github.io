@@ -6,17 +6,17 @@ export default function TravelerComponent () {
     const [travelerCard, setTraveler] = useState('short');
     if (travelerCard == 'short') {
         return (
-            <div id='traveler' className="space-y-5 bg-white p-5 border-4 border-green-400 rounded-lg">
+            <div id='traveler' className="space-y-5 bg-slate-300 p-5 border-4 border-black rounded-lg">
                 <h1 className="font-bold text-2xl">Traveler</h1>
-                <p>A Fullstack NextJS application utilizing Vercel Postgres</p>
+                <p>A Fullstack NextJS application utilizing Vercel Postgres. A platform for browsing vacations as well as CRUD operations to manage available trips within the database</p>
                 <img className='focus:ring-2' width='20' src="/arrow.png" onClick={() => setTraveler('long')} />
             </div>
         )
     } else if (travelerCard == 'long') {
         return (
-            <div id='traveler' className="space-y-5 bg-white p-5 border-4 border-green-400 rounded-lg">
+            <div id='traveler' className="space-y-5 bg-slate-300 p-5 border-4 border-black rounded-lg">
                 <h1 className="font-bold text-2xl">Traveler</h1>
-                <p>A Fullstack NextJS application utilizing Vercel Postgres</p>
+                <p>A Fullstack NextJS application utilizing Vercel Postgres. A platform for browsing vacations as well as CRUD operations to manage available trips within the database</p>
                 <h2 className="font-bold">Description</h2>
                 <p>This application is a full-stack application that utilizes NextJS for the framework and serverless technology. Node and Postgres by Vercel 
                     are respectively the package manager and backend database for the application. The orginal artifact was a traditional webpage with varying 

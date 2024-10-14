@@ -13,7 +13,7 @@ export default function Portfolio() {
                 <TravelerComponent />
                 <BinaryTree />
                 <div className="flex justify-center">
-                    <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-white border-2 border-green-400 rounded hover:font-bold"><img src="/github.png" />  Additional projects  <img src="/github.png" /> </button></Link>
+                    <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-slate-300 border-2 border-black rounded hover:font-bold"><img src="/github.png" />  Additional projects  <img src="/github.png" /> </button></Link>
                 </div>
             </div>
             <div className='mr-20'>
