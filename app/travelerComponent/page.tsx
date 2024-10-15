@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState} from "react";
 
 export default function TravelerComponent () {
@@ -30,8 +31,9 @@ export default function TravelerComponent () {
                     webpage designs and other frameworks. Please Click the buttons below to view respectively the original artifact`s repository and the enhanced artifact`s repository
                 </p>
                 <div className="flex flex-col space-y-10">
-                    <button className="border-black">Original Artifact</button>
-                    <button>Enhanced Artifact</button>
+                    <Link href=''><button className="border-black border-2 p-5 rounded-lg bg-slate-200 hover:font-bold hover:shadow-inner">Original Artifact</button></Link>
+                    <Link href='' target="_blank" ><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Enhanced Artifact Narrative (Software Design & Engineering)</button></Link>
+                    <Link href='' target="_blank" ><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Enhanced Artifact Narrative (Databases)</button></Link>
                 </div>
                 <img className="rotate-180 focus:ring-2" width="20" src="/arrow.png" onClick={() => setTraveler('short')} />
 

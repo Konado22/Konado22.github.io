@@ -7,7 +7,8 @@ export default function AboutMe() {
             <div className="p-10 text-pretty text-2xl indent-4">
                 <p className="p-10 text-pretty text-2xl indent-4">Hello and welcome to my Portfolio. I have been a student in the Computer Science Program
                     for roughly 2 1/2 years. Prior to attending SNHU (Southern New Hampshire University)
-                    I completed a full-stack web development bootcamp offered through DU (University of Denver).
+                    I completed a Trilogy full-stack web development bootcamp offered through DU (University of Denver). Prior to that i 
+                    have spent several years passivly attending community college as a means to continue learning.
                     I have always enjoyed problem solving and found through these experiences my desire to create
                     applications and technology using the skills I have developed. I deeply enjoy creating dynamic interfaces and modular code that can be utilized
                     in front and back end development.
