@@ -5,7 +5,7 @@ export default function BinaryTree() {
     const [binaryCard, setBinary] = useState('short');
     if (binaryCard == 'short') {
         return (
-            <div id='binaryCard' className="space-y-5 bg-slate-300 p-5 border-4 border-black rounded-lg">
+            <div id='binaryCard' className=" text-black space-y-5 bg-slate-300 p-5 border-4 border-black rounded-lg">
                 <h1 className="font-bold text-2xl">Binary Tree Sort</h1>
                 <p>Comparison, justification, and implementation of a binary tree data structure. (C++)</p>
                 <img className='focus:ring hover:shadow-lg' width='20' src="/arrow.png" onClick={() => setBinary('long')} />
@@ -13,7 +13,7 @@ export default function BinaryTree() {
         )
     } else if (binaryCard == 'long') {
         return (
-            <div id='binaryCard' className="p-5 space-y-5 bg-slate-300 border-4 border-black rounded-lg">
+            <div id='binaryCard' className="text-black p-5 space-y-5 bg-slate-300 border-4 border-black rounded-lg">
                 <h1 className="text-2xl font-bold">Binary Tree Sort</h1>
                 <p>Comparison, justification, and implementation of<br />a binary tree data structure (C++)</p>
                 <h2 className="font-bold">Description:</h2>
