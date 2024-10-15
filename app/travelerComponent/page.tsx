@@ -30,7 +30,7 @@ export default function TravelerComponent () {
                     webpage designs and other frameworks. Please Click the buttons below to view respectively the original artifact's repository and the enhanced artifact's repository
                 </p>
                 <div className="flex flex-col space-y-10">
-                    <button>Original Artifact</button>
+                    <button className=" border-black">Original Artifact</button>
                     <button>Enhanced Artifact</button>
                 </div>
                 <img className=' rotate-180 focus:ring-2' width='20' src="/arrow.png" onClick={() => setTraveler('short')} />
