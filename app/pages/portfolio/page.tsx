@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link";
+import Image from "next/image";
 import TravelerComponent from "@/app/travelerComponent/page";
 import BinaryTree from "@/app/binaryComponent/page";
 export default function Portfolio() {
@@ -13,7 +14,7 @@ export default function Portfolio() {
                 <TravelerComponent />
                 <BinaryTree />
                 <div className=" space-x-2 flex justify-center">
-                    <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-slate-300 border-2 border-black rounded hover:font-bold"><img src="/github.png" height='20' width='20'/>  Additional projects  <img src="/github.png" height='20' width='20'/> </button></Link>
+                    <Link target='_blank' href='https://github.com/Konado22'><button className="flex p-2 bg-slate-300 border-2 border-black rounded hover:font-bold"><Image alt=''src="/github.png" height='20' width='20'/>  Additional projects  <img src="/github.png" height='20' width='20'/> </button></Link>
                 </div>
             </div>
             <div className='mr-20'>
