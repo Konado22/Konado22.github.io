@@ -13,7 +13,7 @@ export default function ContactMe() {
                 <div className="flex-col space-y-10">
                     <h1 className="text-3xl">Below I have also provided additional resouces such as my downloadable cover letter as well as updated resume</h1>
                     <button className=" bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5">Link to Cover Letter</button><br/>
-                    <button className="bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5"> Link to Resume</button>
+                    <Link href={'https://docs.google.com/document/d/1-ixofLayRip4MJ5TJ3spMldObWDe2iyD0ghsbNvhKiw/edit?usp=sharing'}><button className="bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5"> Link to Resume</button></Link>
                 </div>
             </div>
             <div className="flex flex-row justify-evenly">
