@@ -16,7 +16,7 @@ export default function Homepage() {
                 </p>
             </div>
             <div className="flex justify-center">
-                <Image className='pb-10' src='/profile.jpg' alt="picture filler" height='200' width='200' />
+                <Image className='pb-10' src='/bgphoto.png' alt="picture filler" height={'400'} width={'400'}/>
             </div>
         </>
     )

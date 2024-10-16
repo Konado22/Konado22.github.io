@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ContactMe() {
 
@@ -16,9 +17,9 @@ export default function ContactMe() {
                 </div>
             </div>
             <div className="flex flex-row justify-evenly">
-                <Image className='hover:shadow-xl border-2 rounded border-black bg-slate-300' alt="LinkedIn" src='/linkedin.png' height='80' width='80' />
-                <Image className='hover:shadow-xl border-2 rounded border-black bg-slate-300' alt="github" src='/github.png' height='80' width='80' />
-                <Image className='hover shadow-xl border-2 rounded border-black bg-slate-300' alt='email' src='/gmail.png' height='80' width='80' />
+                <Link href='https://www.linkedin.com/in/jesse-draper-2b5466217/' target='_blank'><Image className='hover:shadow-xl border-2 rounded border-black bg-slate-300' alt="LinkedIn" src='/linkedin.png' height='80' width='80' /></Link>
+                <Link href='https://github.com/Konado22' target='_blank'><Image className='hover:shadow-xl border-2 rounded border-black bg-slate-300' alt="github" src='/github.png' height='80' width='80' /></Link>
+                <Link href='mailto:jessedraper2@gmail.com' target='_blank'><Image className='hover shadow-xl border-2 rounded border-black bg-slate-300' alt='email' src='/gmail.png' height='80' width='80' /></Link>
             </div>
 
         </div>
