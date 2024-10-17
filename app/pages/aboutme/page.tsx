@@ -26,11 +26,12 @@ export default function AboutMe() {
                 <br />
                 <div className="space-y-10 mb-10">
                     <h1 className="text-4xl font-bold">Achievements</h1>
-                    <p>Honor Roll</p>
+                    <p> 8x Honor Roll</p>
                     <p>President`s List</p>
+                    <p>Dean`s List</p>
                     <p>3.5 GPA</p>
                     <p>BACS with emphasis in cybersecurity</p>
-                    <p>Certificate of completion Trilogy Full-stack Bootcamp</p>
+                    <p>Certificate of completion Trilogy Full-stack Bootcamp provided through DU</p>
                 </div>
                 <p className="p-10 text-pretty text-2xl">I cannot wait to dive into the field further. For any business or project inqueries please reach out to me through Github or Gmail.</p>
                 <p className="p-10">Below is a code review conducted on original artifacts from my Computer Science program and enhacements to be made to these assignments <br /></p>
