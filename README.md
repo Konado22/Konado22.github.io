@@ -11,17 +11,4 @@
 
 Web Developer <h1/>
 
-<h1>Table of Contents</h1>
-<ul>
-	<li> [Professional Self-Assessment]()</li>
-	<li> [Code Review]()</li>
-	<li> [Software Design and Engineering:Traveler]()</li>
-	<li>[Data Structures and Algorithims: Binary Tree]()</li>
-	<li>[Databases:Traveler]()</li>
-</ul>
-<h1>Professinal Self-Assessment</h1>
-<h1>Code Review</h1>
-<h1>Traveler</h1>
-<h1>Binary Tree</h1>
-![Traveler Application]()
-![Binary Tree]([https://www.google.com](https://github.com/Konado22/Konado22.github.io/tree/main/eportfolio/OriginalArtifacts/Data-Structures-and-Sort))
+Welcome to my portfolio. to see a live deployment of this webpage please visit https://konado22.github.io/
