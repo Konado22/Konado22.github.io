@@ -31,7 +31,7 @@ export default function TravelerComponent () {
                     webpage designs and other frameworks. Please Click the buttons below to view respectively the original artifact`s repository and the enhanced artifact`s repository
                 </p>
                 <div className="flex flex-col space-y-10">
-                    <Link href='https://github.com/Konado22/Konado22.github.io/tree/main/OriginalArtifacts/Travler'><button className="border-black border-2 p-5 rounded-lg bg-slate-200 hover:font-bold hover:shadow-inner">Original Artifact</button></Link>
+                    <Link href='https://github.com/Konado22/Konado22.github.io/tree/main/OriginalArtifacts/Travler' target="_blank"><button className="border-black border-2 p-5 rounded-lg bg-slate-200 hover:font-bold hover:shadow-inner">Original Artifact</button></Link>
                     <Link href='https://github.com/Konado22/Konado22.github.io/tree/main/EnhancedArtifacts/Traveler' target="_blank" ><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Enhanced Artifact Narrative (Software Design & Engineering)</button></Link>
                     <Link href='https://github.com/Konado22/Konado22.github.io/blob/main/EnhancedArtifacts/Traveler/README2.md' target="_blank" ><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Enhanced Artifact Narrative (Databases)</button></Link>
                 </div>
