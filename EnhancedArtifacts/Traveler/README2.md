@@ -26,5 +26,5 @@ Innovative techniques, skills, and tools are also demonstrated through this arti
 I aim to expand further upon this assignment as it was hard for me to learn all the implementations of the technology and I am excited to expand upon the knowledge I have gained.
 
 ## Contributors
-Jesse Draper (Myself)
+Jesse Draper (Myself)<br/>
 Vercel platform for knowledge and tools for creating amazing applications
