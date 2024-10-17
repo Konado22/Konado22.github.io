@@ -1,5 +1,6 @@
 
 # Databases: Traveler (Postgres by Vercel)
+![Traveler](./travelerPictures/1.png)<br/><br/>
 ![Form](./travelerPictures/addform.png) <br/><br/>
 ![Database](./travelerPictures/database.png)<br/><br/>
 ![tripTable](./travelerPictures/tripTable.png)
