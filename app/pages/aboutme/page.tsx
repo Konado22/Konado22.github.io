@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutMe() {
 
     return (
@@ -35,7 +37,7 @@ export default function AboutMe() {
 
             </div>
             <div className="p-10 grid justify-center">
-                <button className="p-5 hover:shadow-2xl hover:font-bold  bg-slate-300 border-2 rounded border-black">View my <br /> Code Review</button>
+                <Link href={'https://youtu.be/-FIxub8Hqs0'} target="_blank"><button className="p-5 hover:shadow-2xl hover:font-bold  bg-slate-300 border-2 rounded border-black">View my <br /> Code Review</button></Link>
             </div>
         </div>
     )
