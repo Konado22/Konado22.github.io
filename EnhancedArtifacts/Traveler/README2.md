@@ -1,5 +1,9 @@
 
 # Databases: Traveler (Postgres by Vercel)
+![Traveler](./travelerPictures/1.png)<br/><br/>
+![Form](./travelerPictures/addform.png) <br/><br/>
+![Database](./travelerPictures/database.png)<br/><br/>
+![tripTable](./travelerPictures/tripTable.png)
 
 ## Description
 This application was designed for users to be able to browse trips avaiable for a travel webpage. The original webpage was designed as a traditional webpage with static elements and a lot of template pictures utilized to create the user interface. The goal of this project previously in Full-Stack Development I was to transition this traditional webpage to a single-page application utilizing a MEAN stack. For enhancements to this artifact, however, I aimed to take the concepts of the traditional webpage and assignment and incoperate them into a different tech stack. I had previously had some experience in React with a MongoDB backend but wanted to implement further change to test myself and learn how to implement an even newer technology. Vercel has recently released NextJS which is essential a newer version of React. NextJS has additional functionality and methods built into it beyond the previous capabilities of React Native. As this technology wasn't anything that I had previously utilized I had to spend a significant amount of time in the docs learning functionality and changes from the traditional React framework I was familiar with. As this narrative focuses more specifically on the backend, I do want to focus on the database integrations for this application. Vercel offers many backend integration options through their platform and I chose to utilize PostgresSQL by Vercel for the database. It utilizes sql syntax and has built in methodology within NextJS for server calls within server components. It made sense to utilize this backend with this stack for those reasons.
