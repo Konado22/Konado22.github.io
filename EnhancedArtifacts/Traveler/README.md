@@ -1,6 +1,6 @@
 # Software Design and Engineering: Traveler (NextJS) <br/>
 ![Traveler](./travelerPictures/1.png)<br/>
-![Form](./travelerPictures/addForm.png) <br/>
+![Form](./travelerPictures/addform.png) <br/>
 ![Database](./travelerPictures/database.png)
 
 ## Description
