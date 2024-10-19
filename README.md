@@ -11,4 +11,4 @@
 
 Web Developer <h1/>
 
-Welcome to my portfolio. to see a live deployment of this webpage please visit https://konado22.github.io/
+Welcome to my portfolio. To see a live deployment of this webpage please visit <br/> https://konado22.github.io/
