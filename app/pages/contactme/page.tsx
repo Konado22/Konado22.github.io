@@ -12,7 +12,7 @@ export default function ContactMe() {
                 <h1 className="text-2xl">For any inqueries regarding project opportunities or ways I can support your team today please reach out to me through any of the resources below.</h1>
                 <div className="flex flex-col p-10">
                     <h1 className="text-3xl">Below I have also provided additional resouces such as my downloadable cover letter as well as updated resume</h1><br/><br/>
-                    <Link href={''} target="_blank"><button className="bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5">Link to Cover Letter</button></Link><br/>
+                    {/* <Link href={''} target="_blank"><button className="bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5">Link to Cover Letter </button></Link><br/> */}
                     <Link href={'https://docs.google.com/document/d/1-ixofLayRip4MJ5TJ3spMldObWDe2iyD0ghsbNvhKiw/edit?usp=sharing'} target="_blank"><button className="bg-slate-300 border-2 rounded border-black hover:shadow-2xl text-2xl hover:font-bold border-spacing-3 p-5"> Link to Resume</button></Link>
                 </div>
             </div>
