@@ -1,4 +1,4 @@
-# Algorithms and Data Structures: cpp-data-sort <br/>
+# Algorithms and Data Structures: Cpp-Data-Sort <br/>
 
 ## Description
 
@@ -7,9 +7,10 @@ This projects aim was an enhancement of previous work completed in CS-300. In th
 <ul>
   <li>Transition from vector to Binary Tree</li>
   <li>Implmement functionality to iterate through tree</li>
-  <li>Include parser file to create objects</li>
+  <li>Utilize parser file to create objects</li>
   <li>Build functionality to measure time performance of the programs execution</li>
 </ul>
 
 ## Reflection
 
+I had orginally chosen to implement a vector for the final project submission for this course. Iteration of a vector was easy to implement and was very linear in terms of methodology to iterate over and through the values within the stored vector. To demonstrate an understanding of data structures and algorithms I did want to implmeent a binary tree data structure. Though methodology constructed we can get faster computing times through the tree than we can with vectors. By showcasing the algorithms needes to pre and post sort the tree and explain the logic supporting the descision I demonstrate a solid understanding of data structures, their benefits, their hinderences, as well as a demonstration of course objectives.
