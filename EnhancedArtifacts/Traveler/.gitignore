@@ -27,19 +27,14 @@ yarn-error.log*
 
 # local env files
 .env*.local
-pnpm-lock.yaml
+.env
 # vercel
 .vercel
 
+#yaml file
+pnpm-lock.yaml
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-# packagelock
-packagelock.json
+package-lock.json
 
-
-#.gitignore
-gitignore
-/gitignore
-EnhancedArtifacts/Traveler/node_modules
-.package-lock.json
