@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <button className="hover:font-bold hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:font-bold  hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('main')}>Services</button>
+            {/* <button className="hover:font-bold  hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('main')}>Services</button> */}
             <button className="hover:font-bold  hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <Homepage />
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <button className="font-bold border-b-4 border-black rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
+            {/* <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button> */}
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <AboutMe />
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="font-bold border-b-4 border-black rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
+            {/* <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button> */}
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <Portfolio />
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
+            {/* <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button> */}
             <button className="font-bold border-b-4 border-black rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <ContactMe />
