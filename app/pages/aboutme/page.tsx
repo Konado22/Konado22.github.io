@@ -7,13 +7,23 @@ export default function AboutMe() {
         <div>
             <h1 className="p-10 text-6xl font-bold">Professional Self-Assessment</h1>
             <div className="p-10 text-pretty text-2xl indent-4">
-                <p className="p-10 text-pretty text-2xl indent-4">Hello and welcome to my Portfolio. I have been a student in the Computer Science Program
+                <p>Hello and welcome to my Portfolio. I have been a student in the Computer Science Program
                     for roughly 2 1/2 years. Prior to attending SNHU (Southern New Hampshire University)
-                    I completed a Trilogy full-stack web development bootcamp offered through DU (University of Denver). Prior to that i 
+                    I completed a Trilogy full-stack web development bootcamp offered through DU (University of Denver). Prior to that I 
                     have spent several years passivly attending community college as a means to continue learning.
                     I have always enjoyed problem solving and found through these experiences my desire to create
                     applications and technology using the skills I have developed. I deeply enjoy creating dynamic interfaces and modular code that can be utilized
                     in front and back end development.
+                </p> <br/>
+                <p>Through the courses I have taken I have been able to implement security principles and best practices into the code I develop. There are many risks and concerns that exist
+                    in web development and through learning about vulernabilities, security principles, and the importance of testing I have become a stronger and more conscious developer. The ability
+                    to follow modern day mobile and user centric design principles is essential to user interface development in modern technologies, and utilizing tools that can speed up or increase efficiency are 
+                    highly sought assets when building applications and developing software. I have gained a greater understanding of software development lifecycle and the importance of managing expectations and 
+                    measurable results through sprints and reviews. Communicating results and progress with stakeholders is essential when developing larger projects that require coordination to a high degree. Managing best naming conventions
+                    and practices such as file headers and in-line commenting help manage the success of operating within a team enviornment. Through my explanation and justification of data structures and o-notation in algorithms I showcase
+                    my understanding of data structures and best practices for implementing different methodology for different uses. The Traveler application and binary tree assignment I have selected articulate my skills in the areas of software 
+                    engineering, data structures and algorithms, as well as databases. My abilities to contribute to collaboration in a team environmnet and communication with stakeholders is apparent through the practices utilized to make the codebase
+                    for these applications incredibly readable and easily understandable.
                 </p>
                 <p className="p-10">As I look towards the future of my career I aim to utilize the skills
                     developed within the BSCS program with emphasis in cybersecurity. Desires include becoming
