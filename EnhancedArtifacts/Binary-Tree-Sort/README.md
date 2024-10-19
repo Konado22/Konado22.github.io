@@ -7,7 +7,7 @@ This projects aim was an enhancement of previous work completed in CS-300. In th
 <ul>
   <li>Transition from vector to Binary Tree</li>
   <li>Implmement functionality to iterate through tree</li>
-  <li>Include parser file to create objects</li>
+  <li>Utilize parser file to create objects</li>
   <li>Build functionality to measure time performance of the programs execution</li>
 </ul>
 
