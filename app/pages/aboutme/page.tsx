@@ -25,7 +25,7 @@ export default function AboutMe() {
                 </p>
                 <br />
                 <div className="space-y-10 mb-10">
-                    <h1 className="text-4xl font-bold">Achievements</h1>
+                    <h1 className="p-10 text-4xl font-bold">Achievements</h1>
                     <p> 8x Honor Roll</p>
                     <p>President`s List</p>
                     <p>Dean`s List</p>
