@@ -1,4 +1,4 @@
-# Algorithms and Data Structures: cpp-data-sort <br/>
+# Algorithms and Data Structures: CPP-Data-Sort <br/>
 
 ## Description
 
