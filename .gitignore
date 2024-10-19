@@ -40,3 +40,4 @@ package-lock.json
 #.gitignore
 .gitignore
 /.gitignore
+EnhancedArtifacts/Traveler/node_modules
