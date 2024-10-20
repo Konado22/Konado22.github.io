@@ -44,7 +44,8 @@ export default function AboutMe() {
                     Through efforts to explain the descision-making and logic that supports the conversion and justification of the data structure I showcase
                     The ability to clearly articulate approaches to solving complex logic problems.
 
-                </p><br/><br/>
+                </p>
+                <br/><br/>
                 <p>As I look towards the future of my career I aim to utilize the skills
                     developed within the BSCS program with emphasis in cybersecurity. Desires include becoming
                     a full-stack or front-end engineer. Utilizing skills in various languages, storage options, and
