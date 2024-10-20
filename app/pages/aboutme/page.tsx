@@ -24,6 +24,26 @@ export default function AboutMe() {
                     my understanding of data structures and best practices for implementing different methodology for different uses. The Traveler application and binary tree assignment I have selected articulate my skills in the areas of software 
                     engineering, data structures and algorithms, as well as databases. My abilities to contribute to collaboration in a team environmnet and communication with stakeholders is apparent through the practices utilized to make the codebase
                     for these applications incredibly readable and easily understandable.
+                </p><br/>
+                <p>As I arive at the conclusion of my BSCS program I can reflect on the many skills I am able to demonstrate through this portfolio and 
+                    work I have completed. Through creation of a full-stack application in NextJS with Postgres I can demonstrate delivering professional-quality
+                    communications that are technically sound and coherent. The application utilizes clear documentation through
+                    inline commenting as well as headers that inform users of functionality within a file. This demonstrates an ability to create code-review experiences
+                    with easily readable and understandable code. Implementation of a new technology in NextJS as well as Postgres demonstrates
+                    the ability to use well-founded and innovative techniques to accomplish industry-specific goals.
+                    Industry standards for user-centric and mobile-friendly architecture show my understanding of techniques and skills
+                    needed to create user friendly applications with simple and easily understandable navigation. By following conventions built into NextJS
+                    I can also demonstrate techniques built into this framework that create more robust and efficient codebase
+                    that can be reused throughout the application. NextJS also offers a smart routing potential built into the creation
+                    of page files to render routes within an application. Security measures built into Postgres and NextJS handshakes allow for a level of security
+                    beyond the traditional capabilities of javascipt. Usage of NextJS sql packages implement built-in security measures against
+                    SQL injection. Zod is used within the application to validate user input in forms used to handle requests to the server. Proper error handling is also applied
+                    throughout logic within the applicaiton to handled failed request to the server as well as accesing pages that aren't created. This demonstrates
+                    a security mindset that anticipates adversarial exploits in software architecture and designs to expose vulnerabilities.
+                    By implementing recursive logic and conversion to a tree data structure for my Cpp Data Sort project I can demonstrate the ability to aproach solving complex logic problems.
+                    Through efforts to explain the descision-making and logic that supports the conversion and justification of the data structure I showcase
+                    The ability to clearly articulate approaches to solving complex logic problems.
+
                 </p>
                 <p>As I look towards the future of my career I aim to utilize the skills
                     developed within the BSCS program with emphasis in cybersecurity. Desires include becoming
