@@ -34,7 +34,7 @@ export default function AboutMe() {
                     within the field of computer science and hope to continue developing my understanding of various current technologies in the industry.
                 </p>
                 <br />
-                <div className="space-y-10 ml-10 mb-10">
+                <div className="space-y-10 mb-10">
                     <h1 className="p-10 text-4xl font-bold">Achievements</h1>
                     <p> 8x Honor Roll</p>
                     <p>President`s List</p>
