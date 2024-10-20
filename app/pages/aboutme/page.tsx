@@ -38,7 +38,7 @@ export default function AboutMe() {
                     of page files to render routes within an application. Security measures built into Postgres and NextJS handshakes allow for a level of security
                     beyond the traditional capabilities of javascipt. Usage of NextJS sql packages implement built-in security measures against
                     SQL injection. Zod is used within the application to validate user input in forms used to handle requests to the server. Proper error handling is also applied
-                    throughout logic within the applicaiton to handled failed request to the server as well as accesing pages that aren't created. This demonstrates
+                    throughout logic within the applicaiton to handled failed request to the server as well as accesing pages that aren`t created. This demonstrates
                     a security mindset that anticipates adversarial exploits in software architecture and designs to expose vulnerabilities.
                     By implementing recursive logic and conversion to a tree data structure for my Cpp Data Sort project I can demonstrate the ability to aproach solving complex logic problems.
                     Through efforts to explain the descision-making and logic that supports the conversion and justification of the data structure I showcase
