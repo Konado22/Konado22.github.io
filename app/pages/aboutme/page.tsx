@@ -25,7 +25,7 @@ export default function AboutMe() {
                     engineering, data structures and algorithms, as well as databases. My abilities to contribute to collaboration in a team environmnet and communication with stakeholders is apparent through the practices utilized to make the codebase
                     for these applications incredibly readable and easily understandable.
                 </p>
-                <p className="p-10">As I look towards the future of my career I aim to utilize the skills
+                <p>As I look towards the future of my career I aim to utilize the skills
                     developed within the BSCS program with emphasis in cybersecurity. Desires include becoming
                     a full-stack or front-end engineer. Utilizing skills in various languages, storage options, and
                     understanding the role of myself and others in cybersecurity I believe I truly have a solid
