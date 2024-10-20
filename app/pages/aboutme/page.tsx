@@ -32,7 +32,7 @@ export default function AboutMe() {
                     with easily readable and understandable code. Implementation of a new technology in NextJS as well as Postgres demonstrates
                     the ability to use well-founded and innovative techniques to accomplish industry-specific goals.
                     Industry standards for user-centric and mobile-friendly architecture show my understanding of techniques and skills
-                    needed to create user friendly applications with simple and easily understandable navigation. By following conventions built into NextJS
+                    needed to create user friendly applications with simple and easily understandable navigation. <br/><br/>By following conventions built into NextJS
                     I can also demonstrate techniques built into this framework that create more robust and efficient codebase
                     that can be reused throughout the application. NextJS also offers a smart routing potential built into the creation
                     of page files to render routes within an application. Security measures built into Postgres and NextJS handshakes allow for a level of security
