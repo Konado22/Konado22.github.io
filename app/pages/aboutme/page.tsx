@@ -44,7 +44,7 @@ export default function AboutMe() {
                     Through efforts to explain the descision-making and logic that supports the conversion and justification of the data structure I showcase
                     The ability to clearly articulate approaches to solving complex logic problems.<br/><br/>
 
-                </p>
+                </p><br/><br/>
                 <p>As I look towards the future of my career I aim to utilize the skills
                     developed within the BSCS program with emphasis in cybersecurity. Desires include becoming
                     a full-stack or front-end engineer. Utilizing skills in various languages, storage options, and
@@ -55,7 +55,7 @@ export default function AboutMe() {
                 </p>
                 <br />
                 <div className="space-y-10 mb-10">
-                    <h1 className="p-10 text-4xl font-bold">Achievements</h1>
+                    <h1 className="text-4xl font-bold">Achievements</h1>
                     <p> 8x Honor Roll</p>
                     <p>President`s List</p>
                     <p>Dean`s List</p>
@@ -63,7 +63,7 @@ export default function AboutMe() {
                     <p>BACS with emphasis in cybersecurity</p>
                     <p>Certificate of completion Trilogy Full-stack Bootcamp provided through DU</p>
                 </div>
-                <p className="p-10 text-pretty text-2xl">I cannot wait to dive into the field further. For any business or project inqueries please reach out to me through Github or Gmail.</p>
+                <p className="text-pretty text-2xl">I cannot wait to dive into the field further. For any business or project inqueries please reach out to me through Github or Gmail.</p>
                 <p >Below is a code review conducted on original artifacts from my Computer Science program and enhacements to be made to these assignments <br /></p>
 
             </div>
