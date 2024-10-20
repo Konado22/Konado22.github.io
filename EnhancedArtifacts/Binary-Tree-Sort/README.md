@@ -1,6 +1,7 @@
 # Algorithms and Data Structures: Cpp-Data-Sort <br/>
 
 ## Description
+A completed ehancement of coursework from CS-300 Cpp Data Structures. For our final assessment in this course we were to chose a data structure to implement for storing objects read from a csv file. The goal was to implement the fastest data structure between a variety of structures built into C++. I had originally chosen to implement a vector but for enhancements have built a tree.<br/>
 
 ## Goals
 This projects aim was an enhancement of previous work completed in CS-300. In this course we learned about various data structure in C++ and characteristics of these structures. The final project for this course was to create a data structure to store data read from an external CSV file. By creating this data structure and implementing the methodology to iterate through it, we also were tasked with justifying our descision to include the specific data structure we chose. Upon reflection and enhancements of this artifact I have transitioned to a binary tree structure rather than a standard vector. Below I have provided a list of enhancements performed to the artifact in line with course objectives that best showcases my work within data structures and algorithms within the SNHU computer science program.
