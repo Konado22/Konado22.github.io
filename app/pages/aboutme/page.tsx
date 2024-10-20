@@ -44,7 +44,7 @@ export default function AboutMe() {
                     <p>Certificate of completion Trilogy Full-stack Bootcamp provided through DU</p>
                 </div>
                 <p className="p-10 text-pretty text-2xl">I cannot wait to dive into the field further. For any business or project inqueries please reach out to me through Github or Gmail.</p>
-                <p className="p-10">Below is a code review conducted on original artifacts from my Computer Science program and enhacements to be made to these assignments <br /></p>
+                <p >Below is a code review conducted on original artifacts from my Computer Science program and enhacements to be made to these assignments <br /></p>
 
             </div>
             <div className="p-10 grid justify-center">
