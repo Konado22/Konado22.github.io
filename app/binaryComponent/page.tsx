@@ -24,7 +24,7 @@ export default function BinaryTree() {
                     My goal in the enhancements was to implement the quickest and most effective to manage data structure.
                     Originally a vector was utilized for simplistic storgage and manipulation.  </p>
                     <div className="flex flex-col space-y-10">
-                    <Link href='https://github.com/Konado22/Konado22.github.io/OriginalArtifacts/Data-Structures-and-Sort' target="_blank"><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Original Artifact</button></Link>
+                    <Link href='https://github.com/Konado22/Konado22.github.io/tree/main/OriginalArtifacts/Data-Structures-and-Sort' target="_blank"><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Original Artifact</button></Link>
                     <Link href='https://github.com/Konado22/Konado22.github.io/tree/main/EnhancedArtifacts/Binary-Tree-Sort' target='_blank'><button className="border-black border-2 p-5 bg-slate-200 rounded-lg hover:font-bold hover:shadow-inner">Enhanced Artifact</button></Link>
                 </div>
                 <img className=' rotate-180 focus:ring hover:shadow-lg' width='20' src="/arrow.png" onClick={() => setBinary('short')} />

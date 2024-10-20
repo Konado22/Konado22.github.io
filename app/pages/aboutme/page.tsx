@@ -42,7 +42,7 @@ export default function AboutMe() {
                     a security mindset that anticipates adversarial exploits in software architecture and designs to expose vulnerabilities.
                     By implementing recursive logic and conversion to a tree data structure for my Cpp Data Sort project I can demonstrate the ability to aproach solving complex logic problems.
                     Through efforts to explain the descision-making and logic that supports the conversion and justification of the data structure I showcase
-                    The ability to clearly articulate approaches to solving complex logic problems.
+                    The ability to clearly articulate approaches to solving complex logic problems.<br/><br/>
 
                 </p>
                 <p>As I look towards the future of my career I aim to utilize the skills
