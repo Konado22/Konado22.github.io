@@ -11,7 +11,9 @@ export default function Contact() {
              tools and capabilities that I can provide. If there is immediate opening for a position that you believe I fit please
               contact me via my business email below. To see further information regarding me and my career please check out my LinkedIn 
               profile as well as my Github profile.
-        </h2>
+        </h2> 
+        <h2>Email:jessedraper2@gmail.com</h2>
+        <h2>Github: Konado22</h2>
       </div>
     </>
   );
