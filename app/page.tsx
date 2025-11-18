@@ -11,7 +11,6 @@ import Homepage from "./pages/homepage/page";
 import AboutMe from "./pages/aboutme/page";
 import Portfolio from "./pages/portfolio/page";
 import ContactMe from "./pages/contactme/page";
-import ServicesPage from "./pages/servicespage/page";
 
 export default function Home() {
   "use client"
@@ -20,13 +19,12 @@ export default function Home() {
     if (currentPage == 'main') {
       return (
         <div className="grid size-full grid-flow-row bg-blue-500">
-          <div className="  max-h-full gap-y-10 bg-gradient-to-b from-slate-500 to-blue-500">
+          <div className="  max-h-full gap-y-10 ">
             <div className="flex justify-end pr-10 align-middle">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='60' height='60' className=" mt-10 mr-5 pt-5 hover:shadow-2xl" />
             </div>
             <button className="hover:font-bold hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('portfolio')}>Portfolio</button>
-            {/* <button className="hover:font-bold  hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('main')}>Services</button> */}
             <button className="hover:font-bold  hover:border-b-4 border-black rounded p-5 text-2xl " onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <Homepage />
@@ -41,7 +39,6 @@ export default function Home() {
             </div>
             <button className="font-bold border-b-4 border-black rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            {/* <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button> */}
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <AboutMe />
@@ -49,14 +46,13 @@ export default function Home() {
       )
     } else if (currentPage == 'portfolio') {
       return (
-        <div className="grid size-full grid-flow-row bg-blue-500">
+        <div className="grid size-full grid-flow-row bg-blue-500 font-black">
           <div className="max-h-full gap-y-10 bg-gradient-to-b from-slate-600 to-blue-500">
             <div className="flex justify-end pr-10 align-middle">
               <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='60' height='60' className=" mt-10 mr-5 pt-5 hover:shadow-2xl" />
             </div>
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
             <button className="font-bold border-b-4 border-black rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-            {/* <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button> */}
             <button className="hover:font-bold rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
           </div>
           <Portfolio />
@@ -77,20 +73,7 @@ export default function Home() {
           <ContactMe />
         </div>
       )
-    } else if (currentPage == 'servicesPage') {
-      <div className="grid size-full grid-flow-row bg-blue-500">
-        <div className="max-h-full gap-y-10 bg-gradient-to-b from-slate-600 to-blue-500">
-          <div className="flex justify-end pr-10 align-middle">
-            <Image onClick={() => newPage('main')} src='/profile.jpg' alt="profile picture" width='50' height='50' className=" mt-10 mr-5 pt-5 hover:shadow-2xl" />
-          </div>
-          <button className="rounded p-5 text-2xl" onClick={() => newPage('aboutme')}>About Me</button>
-          <button className="rounded p-5 text-2xl" onClick={() => newPage('portfolio')}>Portfolio</button>
-          <button className="font-bold border-b-4 border-black rounded p-5 text-2xl" onClick={() => newPage("main")}>Services</button>
-          <button className="rounded p-5 text-2xl" onClick={() => newPage('contactme')}>Contact Me</button>
-        </div>
-        <ServicesPage />
-      </div>
-    }
+    } 
     else {
       return (
         <div className="flex justify-center">
