@@ -6,7 +6,7 @@ export default function Navbar() {
         <Link href='/aboutMe' className=" hover:text-4xl">About Me</Link>
         <Link href='/projects' className=" hover:text-4xl">Projects</Link>
         <Link href='/contact' className=" hover:text-4xl" >Contact</Link>
-        <div className="flex justify-end">
+        <div className="flex justify-items-end">
             <Link href='/'>Back Home</Link>
         </div>
       </div>
