@@ -5,7 +5,7 @@ export default function AboutMe() {
     <>
       <Navbar />
       <div className="flex items-center flex-col mt-10 pt-20 ">
-        <h1 className="p-10 flex justify-center text-4xl leading-loose">
+        <h1 className="p-10 flex justify-center text-4xl leading-loose font-bold">
           Welcome to my Website <br />
         </h1>
         <div className="p-10">
@@ -62,7 +62,7 @@ export default function AboutMe() {
             thoughtful, secure, and intuitive digital experiences — and to keep
             leveling up one project at a time.
           </h2>
-          <h2 className="p-10 text-3xl leading-loose">Accolades:</h2>
+          <h2 className="p-10 text-3xl leading-loose font-bold">Accolades:</h2>
           <ul>
             <li className="p-10 text-3xl leading-loose">8x Honor Roll</li>
             <li className="p-10 text-3xl leading-loose">Presidents List</li>

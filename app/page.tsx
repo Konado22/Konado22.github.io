@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="m-10 pt-20">
-        <h1 className="text-4xl flex justify-center font-bold">Welcome to my Website!</h1>
+        <h1 className="p-10 text-4xl flex justify-center font-bold">Welcome to my Website!</h1>
       </div>
       <div className="p-10 space-y-4 ">
         <br></br>
