@@ -5,7 +5,7 @@ export default function Contact() {
     <>
       <Navbar />
       <div className="mt-10 pt-20">
-        <h1 className="text-4xl">Contact Me</h1>
+        <h1 className="p-10 flex justify-center text-4xl">Contact Me</h1>
       </div>
     </>
   );

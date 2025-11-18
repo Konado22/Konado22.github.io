@@ -5,7 +5,7 @@ export default function AboutMe() {
     <>
       <Navbar />
       <div className="flex items-center flex-col mt-10 pt-20 ">
-        <h1 className="flex justify-center text-4xl leading-loose">
+        <h1 className="p-10 flex justify-center text-4xl leading-loose">
           Welcome to my Website <br />
         </h1>
         <div className="p-10">
