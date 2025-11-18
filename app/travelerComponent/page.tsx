@@ -15,7 +15,7 @@ export default function TravelerComponent () {
         )
     } else if (travelerCard == "long") {
         return (
-            <div id='traveler' className="space-y-5 bg-slate-300 p-5 border-4 border-black rounded-lg">
+            <div id='traveler' className="space-y-5 bg-slate-300 p-5 border-4 border-black rounded-lg font-black">
                 <h1 className="font-bold text-2xl">Traveler</h1>
                 <p>A Fullstack NextJS application utilizing Vercel Postgres. A platform for browsing vacations as well as CRUD operations to manage available trips within the database</p>
                 <h2 className="font-bold">Description</h2>
