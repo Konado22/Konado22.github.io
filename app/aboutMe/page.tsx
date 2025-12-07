@@ -3,7 +3,7 @@ import Navbar from "../navbar/navbar";
 export default function AboutMe() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex items-center flex-col mt-10 pt-20 ">
         <h1 className="p-10 flex justify-center text-4xl leading-loose font-bold">
           Welcome to my Website <br />
