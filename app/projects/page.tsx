@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Navbar from "../navbar/navbar";
+// import Navbar from "../navbar/navbar";
 
 export default function Projects() {
   return (
