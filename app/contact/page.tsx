@@ -1,9 +1,9 @@
-// import Navbar from "../navbar/navbar";
+import Navbar from "../navbar/navbar";
 
 export default function Contact() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="mt-10 pt-20 text-4xl">
         <h1 className="p-10 flex justify-center font-bold">Contact Me</h1>
         <h2 className="p-10 text-2xl">Thank you for taking the time to view my website and the skills that I have been developing.

@@ -1,10 +1,10 @@
 import Link from "next/link";
-// import Navbar from "../navbar/navbar";
+import Navbar from "../navbar/navbar";
 
 export default function Projects() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="mt-10 pt-20">
         <h1 className="p-10 flex justify-center text-4xl font-bold">
           Projects
