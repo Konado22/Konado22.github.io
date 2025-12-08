@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="p-10 space-y-4 ">
         <br></br>
-        <h1 className="text-2xl leading-loose p-10 ">
+        <h1 className="text-4xl leading-loose p-10 ">
           I am a full-stack developer with a strong foundation in computer
           science, security-focused development, and modern web technologies.
           With experience gained through SNHU’s BSCS program (cybersecurity
