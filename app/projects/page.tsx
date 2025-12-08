@@ -32,7 +32,7 @@ export default function Projects() {
             Future projects in progress
           </h1>
           <Link
-            href="https://github.com/Konado22?tab=overview&from=2025-11-01&to=2025-11-18"
+            href="https://github.com/Konado22?"
             className="flex justify-center text-blue-600"
           >
             Click Here
