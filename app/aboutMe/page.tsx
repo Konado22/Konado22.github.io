@@ -15,7 +15,7 @@ export default function AboutMe() {
             user-focused applications. I graduated from Southern New Hampshire
             University with a Bachelor of Arts in Computer Science,
             concentrating in Cyber Security, and I completed a Full-Stack Web
-            Development Bootcamp through the University of Denver.
+            Development Bootcamp through the University of Denver prior to completing my degree.
           </h2>
           <h2 className="p-10 text-3xl leading-loose">
             Over the years, I’ve built numerous applications across multiple
