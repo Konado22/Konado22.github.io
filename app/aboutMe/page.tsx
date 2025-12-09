@@ -67,7 +67,7 @@ export default function AboutMe() {
             <li className="p-10 text-3xl leading-loose">8x Honor Roll</li>
             <li className="p-10 text-3xl leading-loose">Presidents List</li>
             <li className="p-10 text-3xl leading-loose">Deans List</li>
-            <li className="p-10 text-3xl leading-loose">3.5 GPA</li>
+            <li className="p-10 text-3xl leading-loose">3.7 GPA</li>
             <li className="p-10 text-3xl leading-loose">BACS with emphasis in cybersecurity</li>
             <li className="p-10 text-3xl leading-loose">Certificate of completion Trilogy Full-stack Bootcamp</li>
           </ul>
