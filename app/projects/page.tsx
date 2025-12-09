@@ -9,21 +9,21 @@ export default function Projects() {
         <h1 className="p-10 flex justify-center text-4xl font-bold">
           Projects
         </h1>
-        <div className="p-10 grid grid-cols-2 text-2xl justify-items-center leading-loose">
-          <div className="bg-slate-200">
-            <h1 className="flex justify-center font-bold p-10">Pokedex</h1>
+        <div className="p-10 grid grid-cols-2 text-2xl leading-loose">
+          <div className="bg-slate-200 flex justify-center">
+            <h1 className="font-bold p-10">Pokedex</h1>
             <p>A NextJS application using API fetching and state</p>
             <p >Link to repo</p>
           </div>
-          <div className="bg-slate-200">
-            <h1 className="flex justify-center font-bold p-10">
+          <div className="bg-slate-200 flex justify-center">
+            <h1 className="font-bold p-10">
               Animal Center Database
             </h1>
             <p>A Dash project using Python to help with animal adoption</p>
             <p>Link to repo</p>
           </div>
-          <div className="bg-slate-200">
-            <h1 className="flex justify-center font-bold p-10">
+          <div className="bg-slate-200 flex justify-center">
+            <h1 className="font-bold p-10">
               Pirate Treasure game
             </h1>
             <p>
@@ -32,8 +32,8 @@ export default function Projects() {
             </p>
             <p>Link to repo</p>
           </div>
-          <div className="bg-slate-200">
-            <h1 className="flex justify-center font-bold p-10">Traveler</h1>
+          <div className="bg-slate-200 flex justify-center">
+            <h1 className="font-bold p-10">Traveler</h1>
             <p>
               A Fullstack NextJS application using Postgres to manage vacations
             </p>
