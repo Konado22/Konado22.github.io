@@ -4,27 +4,29 @@ export default function AboutMe() {
   return (
     <>
       <Navbar />
-      <div className="flex items-center flex-col mt-10 pt-20 ">
+      <div className="flex flex-col mt-10 pt-20 ">
         <h1 className="p-10 flex justify-center text-4xl leading-loose font-bold">
           About Me <br />
         </h1>
-        <div className="p-10">
-          <h2 className="p-10 text-3xl leading-loose">
+        <div className="p-10 text-3xl leading-loose">
+          <h2>
             Hi, I’m Jesse Draper — a web developer with a strong foundation in
             computer science and a passion for building clean, efficient, and
             user-focused applications. I graduated from Southern New Hampshire
             University with a Bachelor of Arts in Computer Science,
-            concentrating in Cyber Security, and I completed a Full-Stack Web
+            concentrating in Cyber Security, and completed a Full-Stack Web
             Development Bootcamp through the University of Denver prior to completing my degree.
           </h2>
-          <h2 className="p-10 text-3xl leading-loose">
+          <br></br>
+          <h2>
             Over the years, I’ve built numerous applications across multiple
             programming paradigms and languages, including Java, JavaScript,
             C++, and Python. My development experience spans modern frameworks
             such as React, Next.js, and Dash, along with hands-on work in
             MongoDB, PostgreSQL, and MySQL.
           </h2>
-          <h2 className="p-10 text-3xl leading-loose">
+          <br></br>
+          <h2>
             I’m driven by problem-solving and continuous improvement — whether
             that’s optimizing a backend workflow, refining UI components, or
             deploying full-stack applications. I enjoy transforming ideas into
@@ -32,44 +34,48 @@ export default function AboutMe() {
             accessibility, and user experience. I also bring several skills
             commonly sought in entry-level web development roles, including:
           </h2>
-          <ul>
-            <li className="p-10 text-3xl">
+          <br></br>
+          <ul className=" ml-16 list-disc">
+            <li>
               Responsive UI/UX Development using modern CSS frameworks and
               component libraries
             </li>
-            <li className="p-10 text-3xl">RESTful API design and integration</li>
-            <li className="p-10 text-3xl">
+            <li>RESTful API design and integration</li>
+            <li>
               Version control with Git & GitHub (branching, PRs, workflow
               organization)
             </li>
-            <li className="p-10 text-3xl">Agile/Scrum collaboration and sprint-based development</li>
-            <li className="p-10 text-3xl">
+            <li>Agile/Scrum collaboration and sprint-based development</li>
+            <li>
               Authentication & authorization basics (JWT, sessions, OAuth
               workflows)
             </li>
-            <li className="p-10 text-3xl">
+            <li>
               Cloud deployment experience with platforms like Vercel, Netlify,
               and AWS basics
             </li>
-            <li className="p-10 text-3xl">
+            <li>
               Debugging, testing, and code quality practices (unit testing,
               linting, documentation)
             </li>
           </ul>
-          <h2 className="p-10 text-3xl leading-loose">
+          <br></br>
+          <h2 className="text-3xl leading-loose">
             I’m always eager to learn new technologies, contribute to impactful
             projects, and continue growing as a developer. My goal is to create
             thoughtful, secure, and intuitive digital experiences — and to keep
             leveling up one project at a time.
           </h2>
-          <h2 className="p-10 text-3xl leading-loose font-bold">Accolades:</h2>
-          <ul>
-            <li className="p-10 text-3xl leading-loose">8x Honor Roll</li>
-            <li className="p-10 text-3xl leading-loose">Presidents List</li>
-            <li className="p-10 text-3xl leading-loose">Deans List</li>
-            <li className="p-10 text-3xl leading-loose">3.7 GPA</li>
-            <li className="p-10 text-3xl leading-loose">BACS with emphasis in cybersecurity</li>
-            <li className="p-10 text-3xl leading-loose">Certificate of completion Trilogy Full-stack Bootcamp</li>
+          <br></br>
+          <h1 className="font-bold text-4xl">Accolades:</h1>
+          <br></br>
+          <ul className="ml-14 list-disc">
+            <li>8x Honor Roll</li>
+            <li>Presidents List</li>
+            <li>Deans List</li>
+            <li>3.7 GPA</li>
+            <li>BACS with emphasis in cybersecurity</li>
+            <li>Certificate of completion Trilogy Full-stack Bootcamp</li>
           </ul>
         </div>
       </div>
