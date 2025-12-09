@@ -1,4 +1,6 @@
 import Navbar from "../navbar/navbar";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -16,9 +18,10 @@ export default function Contact() {
           career please check out my LinkedIn profile as well as my Github
           profile.
         </h2>
-        <div className="flex flex-row">
-          <h2>Email:jessedraper2@gmail.com</h2>
-          <h2>Github: Konado22</h2>
+        <div className="flex flex-row justify-around p-10">
+          <Link href='www.linkedin.com/in/jesse-draper-2b5466217'><Image height='200' width='200' src='/linkedin.png' alt='Linkedin'/></Link>
+          <Link href='https://github.com/Konado22'><Image height='200' width='200' src='/github.png' alt='Github'/></Link>
+          <Link href='mailto:jessedraper2@gmail.com'><Image height='200' width='200' src='/gmail.png' alt='Gmail'/></Link>
         </div>
       </div>
     </>

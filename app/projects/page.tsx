@@ -11,7 +11,7 @@ export default function Projects() {
           Projects
         </h1>
         <div className="p-10 grid grid-cols-2 text-2xl leading-loose">
-          <div className="p-10 m-10 bg-slate-400 rounded-lg">
+          <div className="p-10 m-10 bg-slate-500 rounded-lg border-4 border-slate-900">
             <h1 className="pb-10 flex font-bold justify-center text-white text-4xl">
               Pokedex
             </h1>
@@ -33,7 +33,7 @@ export default function Projects() {
               Link to repo
             </Link>
           </div>
-          <div className="p-10 m-10 bg-slate-400 rounded-lg">
+          <div className="p-10 m-10 bg-slate-500 rounded-lg border-4 border-slate-700">
             <h1 className="pb-10 flex font-bold justify-center text-white text-4xl">
               Animal Center Database
             </h1>
@@ -50,12 +50,12 @@ export default function Projects() {
             </p>
             <Link
               href="https://github.com/Konado22/AnimalCenterDatabase"
-              className="flex justify-center text-blue-600"
+              className="flex justify-center text-blue-400"
             >
               Link to repo
             </Link>
           </div>
-          <div className="p-10 m-10 bg-slate-400 rounded-lg">
+          <div className="p-10 m-10 bg-slate-500 rounded-lg border-4 border-slate-900">
             <h1 className=" flex font-bold justify-center text-white text-4xl">
               Pirate Treasure game
             </h1>
@@ -73,12 +73,12 @@ export default function Projects() {
             </p>
             <Link
               href="https://github.com/Konado22/PirateTreasureGame"
-              className="flex justify-center text-blue-600"
+              className="flex justify-center text-blue-400"
             >
               Link to repo
             </Link>
           </div>
-          <div className="p-10 m-10 bg-slate-400 rounded-lg">
+          <div className="p-10 m-10 bg-slate-500 rounded-lg border-4 border-slate-900">
             <h1 className="pb-10 flex font-bold justify-center text-white text-4xl">
               Pad Protection
             </h1>
@@ -96,7 +96,7 @@ export default function Projects() {
             </p>
             <Link
               href="https://github.com/Konado22/Pad-Protection"
-              className="flex justify-center text-blue-600"
+              className="flex justify-center text-blue-400"
             >
               Link to repo
             </Link>
@@ -108,7 +108,7 @@ export default function Projects() {
           </h1>
           <Link
             href="https://github.com/Konado22"
-            className="flex justify-center text-blue-600"
+            className="flex justify-center text-blue-400"
           >
             Click Here
           </Link>
