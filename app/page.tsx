@@ -28,7 +28,7 @@ export default function Home() {
           architecture, and agile methodologies, including sprint planning,
           documentation, and stakeholder communication.
         </h1>
-            <h1 className="text-2xl leading-loose p-10 "> 
+            <h1 className="text-4xl leading-loose p-10 "> 
               Using the navbar above please take a look at the about me section to 
               learn more about me and my career. Projects can be found also with their 
               respective Github links and information regarding them. I have also added
