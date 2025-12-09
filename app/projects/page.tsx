@@ -13,14 +13,14 @@ export default function Projects() {
           <div className="p-10">
             <h1 className="flex font-bold justify-center">Pokedex</h1>
             <p className="flex justify-center">A NextJS application using API fetching and state</p>
-            <p className="flex justify-center">Link to repo</p>
+            <Link href='https://github.com/Konado22/THEDEX' className="flex justify-center text-blue-600">Link to repo</Link>
           </div>
           <div className="p-10">
             <h1 className="flex font-bold justify-center">
               Animal Center Database
             </h1>
             <p className="flex justify-center">A Dash project using Python to help with animal adoption</p>
-            <p className="flex justify-center">Link to repo</p>
+            <Link href='https://github.com/Konado22/AnimalCenterDatabase' className="flex justify-center text-blue-600">Link to repo</Link>
           </div>
           <div className="p-10">
             <h1 className="flex font-bold justify-center">
@@ -30,14 +30,14 @@ export default function Projects() {
               A Keras AI program that uses neural networks to teach the program
               to solve a maze
             </p>
-            <p className="flex justify-center">Link to repo</p>
+            <Link href='https://github.com/Konado22/PirateTreasureGame' className="flex justify-center text-blue-600">Link to repo</Link>
           </div>
           <div className="p-10">
             <h1 className="flex font-bold justify-center">Traveler</h1>
             <p className="flex justify-center">
               A Fullstack NextJS application using Postgres to manage vacations
             </p>
-            <p className="flex justify-center">Link to repo</p>
+            <Link href='' className="flex justify-center text-blue-600" >Link to repo</Link>
           </div>
         </div>
         <div className="text-2xl leading-loose">
