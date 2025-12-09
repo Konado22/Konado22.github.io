@@ -20,7 +20,7 @@ export default function Projects() {
           </div>
           <div className="bg-slate-200">
             <h1 className="flex justify-center font-bold p-10">Pirate Treasure game</h1>
-            <p>A Keras AI program that uses AI to teach the Pirate where to find the Treasure</p>
+            <p>A Keras AI program that uses AI to teach the program to solve a maze</p>
           </div>
           <div className="bg-slate-200">
             <h1 className="flex justify-center font-bold p-10">Traveler</h1>
